@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>EvenNumber</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class ="well">
+        <h1>Even Number</h1>
+      </div>
+        <h3>Get Even Number!</h3>
+        <h4>Rules of this game</h4>
+          <p>Even Number will give you a list of even number, and sum of all even number listed.</p>
+            <ol>
+              <li>Numbers divisible by 2 will be listed </li>
+              <li>Sum all listed number</li>
+            </ol>
+
+      <div class="form-group">
+        <form id="userInput" action="index.html" method="get">
+          <label for="userNumber">Enter your number here:</label>
+          <input id="userNumber" type="number" name="number" value="">
+          <button type="submit" name="button">Result!</button>
+        </form>
+      </div>
+
+      <div class="output">
+        <ul id="output">
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
